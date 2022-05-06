@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26C69B10-194A-D2E3-5E23-2563202A5B34" name="Employee">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>7B7CD883-7418-1BFE-4207-A699820FE214</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNO" id="DCE45665-D454-65B5-951F-C34368FBB5B4">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>06561F6E-6AFE-7AF7-F370-4BC652D9617F</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENO" id="62940D42-6E06-3E8F-4ACC-250FA5726870">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>94CFA9C6-1930-7EC1-CCDE-4C4DEFA3786F</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="2C098C07-764D-75E4-06EA-7FF81BBCB71F">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>624D1DD9-D956-05A7-9152-9DC30BE2FDDE</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_DNO" id="1DDEB29E-91EC-48D4-B5F4-06E3535E5D34">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>62ABC30C-1030-D11B-893E-A44546D4018B</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="641A187B-3010-EE84-723E-3F34D43BBC99" referredColumn="699A5C2C-963F-CCC6-821D-DB47723CC480"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DC8B05C-CDAB-665A-FC9A-D6330BF695FC" name="Employee_Department_FK">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>4FD70DFB-EEB2-1B79-D705-F52DD9EEAEFC</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DDEB29E-91EC-48D4-B5F4-06E3535E5D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

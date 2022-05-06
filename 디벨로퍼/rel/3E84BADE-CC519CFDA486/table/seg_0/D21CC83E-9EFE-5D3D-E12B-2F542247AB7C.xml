@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D21CC83E-9EFE-5D3D-E12B-2F542247AB7C" name="Department">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:14 UTC</createdTime>
+<generatorID>C68DDEA6-472C-D8B3-33CA-D8301820A643</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNO" id="699A5C2C-963F-CCC6-821D-DB47723CC480">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>D96D80CE-DD3F-3EE1-EA71-FE4EFE2B1340</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNAME" id="0D06C5BF-50E9-CD5B-F4C5-8C48F264F932">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>3EF85972-1441-CEA6-1E6A-88FBC38BE5FC</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="F2F2C420-92F7-9000-854A-AB2E062F8059">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>67E264EF-72CC-D698-33CA-D120C56021A5</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCA68713-C96A-C578-2543-4F8DFC2E6836" name="Department_PK">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:29:15 UTC</createdTime>
+<generatorID>8D709A62-D359-EC79-359F-7E09371DB362</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="699A5C2C-963F-CCC6-821D-DB47723CC480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

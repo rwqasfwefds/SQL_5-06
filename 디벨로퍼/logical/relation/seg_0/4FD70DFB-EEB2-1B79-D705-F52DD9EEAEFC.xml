@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PNO_DNO" directorySegmentName="seg_0" id="4FD70DFB-EEB2-1B79-D705-F52DD9EEAEFC">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:27:15 UTC</createdTime>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<sourcePk>8D709A62-D359-EC79-359F-7E09371DB362</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C68DDEA6-472C-D8B3-33CA-D8301820A643</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B7CD883-7418-1BFE-4207-A699820FE214</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

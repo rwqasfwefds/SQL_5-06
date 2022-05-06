@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B7CD883-7418-1BFE-4207-A699820FE214" name="Employee">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:18:45 UTC</createdTime>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNO" id="06561F6E-6AFE-7AF7-F370-4BC652D9617F">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:18:59 UTC</createdTime>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENO" id="94CFA9C6-1930-7EC1-CCDE-4C4DEFA3786F">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:19:28 UTC</createdTime>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENAME" id="624D1DD9-D956-05A7-9152-9DC30BE2FDDE">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:19:47 UTC</createdTime>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNO1" id="62ABC30C-1030-D11B-893E-A44546D4018B">
+<createdBy>ds</createdBy>
+<createdTime>2022-05-06 08:27:15 UTC</createdTime>
+<generatorID>4FD70DFB-EEB2-1B79-D705-F52DD9EEAEFC</generatorID>
+<ownerDesignName>디벨로퍼</ownerDesignName>
+<engineerTo>
+<item key="3E84BADE-1B71-B2DE-7E80-CC519CFDA486" value="true"/>
+</engineerTo>
+<referedAttribute>D96D80CE-DD3F-3EE1-EA71-FE4EFE2B1340</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
